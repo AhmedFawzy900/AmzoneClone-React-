@@ -23,7 +23,7 @@ function Categories( {title,image1,image2,image3,image4,desc1,desc2,desc3,desc4}
           <p>{desc4}</p>
         </div>
       </div>
-      <Link to="">See more</Link>
+      <Link to="./Electeric">See more</Link>
     </div>
   )
 }
