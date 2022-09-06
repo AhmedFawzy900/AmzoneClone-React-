@@ -13,7 +13,7 @@ function Bigproduct({title,sld1,sld2,sld3,sld4,sld5,sld6,sld7,sld8,sld9,sld10,sl
     <div className="bigproduct">
         <div className="tit">
             <h2>{title} </h2>
-            <Link to="">Shop now</Link>
+            <Link to="/Electeric">Shop now</Link>
         </div>
     <div className='swip'>
      <Swiper
