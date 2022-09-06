@@ -103,7 +103,7 @@ const Home = () => {
        <Oneimage 
         title={'Dresses'}
         image={dresses}
-        path={''}
+        path={'/Electeric'}
         />
         <Categories 
         title={'Gaming accessories'}
@@ -121,7 +121,7 @@ const Home = () => {
         <Oneimage 
         title={'Electronics'}
         image={Electronics}
-            path={''}
+            path={'/Electeric'}
         />
         <div className="ads">
         <img src={ads} alt="" />
@@ -130,7 +130,7 @@ const Home = () => {
         <Oneimage 
         title={'Health & Personal Care'}
         image={health}
-        path={''}
+        path={'/Electeric'}
         />
         <Categories 
         title={'Back to school'}
@@ -147,7 +147,7 @@ const Home = () => {
         <Oneimage 
         title={'Deals & Promotion'}
         image={promo}
-            path={''}
+            path={'/Electeric'}
         />
         {/* deal */}
         <div className='oneimage'>
@@ -158,7 +158,7 @@ const Home = () => {
                 <span>Top deal</span>
         </div>
 
-        <Link to=""> see all deals</Link>
+        <Link to="/Electeric"> see all deals</Link>
     </div>
     <Bigproduct
     title={"Men's Dress Shirts under $30"}
@@ -195,7 +195,7 @@ const Home = () => {
        <Oneimage 
         title={'Shop backpacks'}
         image={shop}
-        path={''}
+        path={'./Electeric'}
         />
        <Oneimage 
         title={'Shop Laptops & Tablets'}
@@ -205,12 +205,12 @@ const Home = () => {
        <Oneimage 
         title={'Create with strip lights'}
         image={music}
-        path={''}
+        path={'./Electeric'}
         />
        <Oneimage 
         title={'For your Fitness Needs'}
         image={gym}
-            path={''}
+            path={'./Electeric'}
         />
             <Bigproduct
     title={"Stuffed Animals & Toys under $10"}
